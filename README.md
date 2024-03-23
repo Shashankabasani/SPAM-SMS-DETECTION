@@ -7,8 +7,9 @@ Build an AI model that can classify SMS messages as spam or legitimate. Use tech
 **ABOUT DATA SET**:
 
 ***Context***
+
 The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam.
-Content
+***Content***
 The files contain one message per line. Each line is composed by two columns: v1 contains the label (ham or spam) and v2 contains the raw text.
 This corpus has been collected from free or free for research sources at the Internet:
 -> A collection of 425 SMS spam messages was manually extracted from the Grumbletext Web site. This is a UK forum in which cell phone users make public claims about SMS spam messages, most of them without reporting the very spam message received. The identification of the text of spam messages in the claims is a very hard and time-consuming task, and it involved carefully scanning hundreds of web pages. 
@@ -16,7 +17,7 @@ This corpus has been collected from free or free for research sources at the Int
 -> A list of 450 SMS ham messages collected from Caroline Tag's PhD Thesis available at [Web Link].
 -> Finally, we have incorporated the SMS Spam Corpus v.0.1 Big. It has 1,002 SMS ham messages and 322 spam messages and it is public available at: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset/data.
 
-Data Collection and Preprocessing:
+**Data Collection and Preprocessing:**
 
 -Gather a labeled dataset of SMS messages, where each message is tagged as “spam” or “ham” (legitimate).
 -Preprocess the text data by removing stop words, special characters, and converting everything to lowercase.
@@ -28,11 +29,11 @@ Feature Extraction:
 -TF-IDF captures the importance of each word in a document relative to the entire corpus.
 -Word embeddings create dense vector representations for words based on their context.
 
-***Model Selection and Training:***
+**Model Selection and Training:**
 
 Choose a classifier. Some popular choices include
 
-**Logistic Regression **:
+**Logistic Regression**
 
 Logistic Regression models the relationship between the independent variables (features) and the probability of a particular outcome using the logistic function (also known as the sigmoid function).The hypothesis function in logistic regression is defined as the sigmoid function applied to the linear combination of the input features and their corresponding weights.The decision boundary in logistic regression separates the classes in the feature space and is represented by a linear equation.The cost function for logistic regression, known as the logistic loss or cross-entropy loss, penalizes incorrect predictions by measuring the difference between the predicted probabilities and the actual labels.Parameters (coefficients) in logistic regression are estimated using optimization algorithms such as gradient descent or Newton's method to minimize the cost function.Regularization techniques like L1 or L2 regularization can be applied to logistic regression to prevent overfitting.Evaluation metrics for logistic regression include accuracy, precision, recall, F1-score, and ROC curve.Logistic Regression is widely used in various domains such as healthcare (disease prediction), finance (credit risk assessment), marketing (customer churn prediction), and more.Assumptions of logistic regression include linearity between independent variables and the log-odds of the dependent variable.Pros of logistic regression include its simplicity, interpretability, efficiency in training and prediction, and suitability for small datasets and linearly separable problems.Cons of logistic regression include its assumption of linear decision boundaries, sensitivity to outliers, and potential limitations when dealing with non-linear relationships in the data.
 
