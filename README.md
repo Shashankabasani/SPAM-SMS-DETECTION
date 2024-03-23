@@ -52,3 +52,12 @@ Naive Bayes calculates the probability of each class given the input features us
 **Support Vector Machines (SVM)**
 
 Support Vector Machines (SVM) is a supervised machine learning algorithm used for classification and regression tasks. It's particularly effective for classification tasks in high-dimensional spaces.SVM aims to find the optimal hyperplane that best separates the data points into different classes. The hyperplane is defined as the decision boundary that maximizes the margin, which is the distance between the hyperplane and the nearest data points (called support vectors) from each class.In classification, SVM seeks to find the hyperplane that maximizes the margin while still correctly classifying all training data points. If the data is not linearly separable, SVM can use a kernel trick to map the input features into a higher-dimensional space where a hyperplane can separate the classes.SVM is effective in dealing with high-dimensional data and can handle cases where the number of features exceeds the number of samples. It's also robust against overfitting, especially in high-dimensional spaces.SVM uses a loss function called hinge loss, which penalizes misclassified points and encourages maximizing the margin. The optimization problem in SVM involves minimizing the hinge loss while also minimizing the norm of the weight vector (to promote a simpler model).Despite its effectiveness, SVMs can be sensitive to the choice of hyperparameters, such as the choice of kernel and regularization parameter. Additionally, SVMs can be computationally expensive, especially for large datasets.SVM has various applications in classification tasks, including text classification, image recognition, bioinformatics, and more. It's widely used in both academic research and industrial applications due to its versatility and performance.
+
+**Model Evaluation:**
+
+Assess model performance using metrics like accuracy, precision, recall, and F1-score.
+Use the testing subset to evaluate generalization.
+**Model archi tecture**
+
+![spam](https://github.com/Shashankabasani/SPAM-SMS-DETECTION/assets/137595497/278553f9-b262-45f1-b5ae-edb5535ceed3)
+![spam](https://github.com/Shashankabasani/SPAM-SMS-DETECTION/assets/137595497/3a6c1a59-6bf8-44b9-b5b1-c7f82204ed51)
