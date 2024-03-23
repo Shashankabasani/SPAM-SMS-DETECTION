@@ -67,6 +67,7 @@ Steps followed during model implementation
 Perform feature engineering
  Splitting data 
 Extracting the score from methods
+
 **EXPERIMENTAL WORK** 
    
 The experimental work undertaken for the research is as follows
@@ -85,6 +86,15 @@ Developed using various tools and technologies, including:
 Libraries like NumPy, Matplotlib, pandas and sklearn
 Linear Regression, Random Forest, K-Nearest Neighbors (KNN), and XG BOOST models for predicting the score
 
+
 **RESULTS**
+
 The pie chart given below shows ham vs spam mails where 87.37% that is 4516 messages are ham emails and remaining 12.63% that is 653 emails are spam mails 
 ![image](https://github.com/Shashankabasani/SPAM-SMS-DETECTION/assets/137595497/e8da291d-bffb-4017-8f69-80b109b7ef43)
+
+![newplot](https://github.com/Shashankabasani/SPAM-SMS-DETECTION/assets/137595497/5867b806-5475-484e-9a61-28a3dddd6410)
+
+![newplot (1)](https://github.com/Shashankabasani/SPAM-SMS-DETECTION/assets/137595497/687937e5-8cb7-4ad1-9f3c-3b1f9146248e)
+
+![newplot (2)](https://github.com/Shashankabasani/SPAM-SMS-DETECTION/assets/137595497/eb667709-48e8-4f93-b264-e936e4ac1b07)
+
