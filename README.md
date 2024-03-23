@@ -57,7 +57,34 @@ Support Vector Machines (SVM) is a supervised machine learning algorithm used fo
 
 Assess model performance using metrics like accuracy, precision, recall, and F1-score.
 Use the testing subset to evaluate generalization.
-**Model archi tecture**
+**Model architecture**
 
 ![spam](https://github.com/Shashankabasani/SPAM-SMS-DETECTION/assets/137595497/278553f9-b262-45f1-b5ae-edb5535ceed3)
-![spam](https://github.com/Shashankabasani/SPAM-SMS-DETECTION/assets/137595497/3a6c1a59-6bf8-44b9-b5b1-c7f82204ed51)
+Steps followed during model implementation 
+Importing the raw data 
+Extracting the features from the data
+Describing the data set 
+Perform feature engineering
+ Splitting data 
+Extracting the score from methods
+**EXPERIMENTAL WORK** 
+   
+The experimental work undertaken for the research is as follows
+Setting up an infrastructure  
+google colab notebook
+importing necessary libraries like NumPy, pandas, matplotlib, warnings, seaborn, and  sklearn 
+reading the data using the Pandas library
+defining data set and describing about it
+making different types of graphs like heat map and bar graph using matplotlib and seaborn libraries
+descriptive statistics 
+scaling data into testing set and training set
+finding the accuracy for the data using knn, random forest, and XGBoost simply by importing the particular libraries from sklearn library.
+**Tools and Technologies:**
+Developed using various tools and technologies, including:
+Python programming language
+Libraries like NumPy, Matplotlib, pandas and sklearn
+Linear Regression, Random Forest, K-Nearest Neighbors (KNN), and XG BOOST models for predicting the score
+
+**RESULTS**
+The pie chart given below shows ham vs spam mails where 87.37% that is 4516 messages are ham emails and remaining 12.63% that is 653 emails are spam mails 
+![image](https://github.com/Shashankabasani/SPAM-SMS-DETECTION/assets/137595497/e8da291d-bffb-4017-8f69-80b109b7ef43)
