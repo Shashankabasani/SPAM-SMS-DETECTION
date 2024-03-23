@@ -89,7 +89,8 @@ Developed using various tools and technologies, including:
 
 **RESULTS**
 
-The pie chart given below shows ham vs spam mails where 87.37% that is 4516 messages are ham emails and remaining 12.63% that is 653 emails are spam mails 
+The pie chart given below shows ham vs spam sms where 87.37% that is 4516 messages are ham sms and remaining 12.63% that is 653 sms are spam sms 
+
 ![image](https://github.com/Shashankabasani/SPAM-SMS-DETECTION/assets/137595497/e8da291d-bffb-4017-8f69-80b109b7ef43)
 
 ![newplot](https://github.com/Shashankabasani/SPAM-SMS-DETECTION/assets/137595497/5867b806-5475-484e-9a61-28a3dddd6410)
@@ -97,4 +98,12 @@ The pie chart given below shows ham vs spam mails where 87.37% that is 4516 mess
 ![newplot (1)](https://github.com/Shashankabasani/SPAM-SMS-DETECTION/assets/137595497/687937e5-8cb7-4ad1-9f3c-3b1f9146248e)
 
 ![newplot (2)](https://github.com/Shashankabasani/SPAM-SMS-DETECTION/assets/137595497/eb667709-48e8-4f93-b264-e936e4ac1b07)
+
+**CONCLUSION AND FUTURE SCOPE**
+
+
+We have already discussed all the important features of the datasets and their visualization in the above sections. But in order to conclude our report we would choose Logistic Regression . As we are satisfied by seeing how closely we have predicted the spam sms whith an accuracy of 95%.
+There are still many technical indicators and feature variables that we have not included in our project, maybe there are some other indicators that we haven’t explored that would perform better. 
+There are lots of Machine Learning algorithms that we haven’t tried and maybe a neural network or gradient boost would perform better than our solution.
+Last but not least we have used data from the Canadian environment if we increase the data, we think the performance of our solution models may be improved.
 
